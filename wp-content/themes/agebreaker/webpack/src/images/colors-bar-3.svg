@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 634.3 19.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #66b8d9;
+      }
+
+      .cls-2 {
+        fill: #f7ad79;
+      }
+
+      .cls-3 {
+        fill: #bce4fa;
+      }
+
+      .cls-4 {
+        fill: #f08050;
+      }
+
+      .cls-5 {
+        fill: #007c97;
+      }
+
+      .cls-6 {
+        fill: #dd6632;
+      }
+
+      .cls-7 {
+        fill: #feead3;
+      }
+
+      .cls-8 {
+        fill: #0099bc;
+      }
+
+      .cls-9 {
+        fill: #005171;
+      }
+
+      .cls-10 {
+        fill: #fbcca1;
+      }
+    </style>
+  </defs>
+  <g id="Warstwa_4" data-name="Warstwa 4">
+    <g>
+      <rect class="cls-5" x="436.16" y="0" width="129.18" height="19.87" transform="translate(1001.5 19.87) rotate(-180)"/>
+      <rect class="cls-8" x="367.2" y="0" width="68.96" height="19.87"/>
+      <rect class="cls-1" x="332.72" y="0" width="34.48" height="19.87"/>
+      <rect class="cls-3" x="317.15" y="0" width="15.58" height="19.87"/>
+      <rect class="cls-9" x="565.34" y="0" width="68.96" height="19.87"/>
+      <rect class="cls-4" x="68.96" y="0" width="129.18" height="19.87"/>
+      <rect class="cls-2" x="198.14" y="0" width="68.96" height="19.87" transform="translate(465.23 19.87) rotate(-180)"/>
+      <rect class="cls-10" x="267.1" y="0" width="34.48" height="19.87" transform="translate(568.67 19.87) rotate(-180)"/>
+      <rect class="cls-7" x="301.57" y="0" width="15.58" height="19.87" transform="translate(618.72 19.87) rotate(-180)"/>
+      <rect class="cls-6" x="0" y="0" width="68.96" height="19.87" transform="translate(68.96 19.87) rotate(-180)"/>
+    </g>
+  </g>
+</svg>

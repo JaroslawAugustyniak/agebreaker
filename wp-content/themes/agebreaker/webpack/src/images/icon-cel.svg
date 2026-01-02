@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.01 48.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f08050;
+      }
+    </style>
+  </defs>
+  <g id="Warstwa_3" data-name="Warstwa 3">
+    <g>
+      <circle class="cls-2" cx="24" cy="24" r="24"/>
+      <path class="cls-1" d="M24,42.48c-10.19,0-18.47-8.29-18.47-18.47S13.82,5.53,24,5.53s18.47,8.29,18.47,18.47-8.29,18.47-18.47,18.47ZM24,8.88c-8.34,0-15.12,6.78-15.12,15.12s6.78,15.12,15.12,15.12,15.12-6.78,15.12-15.12-6.78-15.12-15.12-15.12Z"/>
+      <path class="cls-1" d="M17.76,26.09v-4.16h12.5v4.16h-12.5ZM21.8,30.01v-12.01h4.41v12.01h-4.41Z"/>
+      <g>
+        <rect class="cls-1" x="22.73" y="3.22" width="2.55" height="9.01"/>
+        <rect class="cls-1" x="22.73" y="35.78" width="2.55" height="9.01"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="39.01" y="19.5" width="2.55" height="9.01" transform="translate(64.29 -16.28) rotate(90)"/>
+        <rect class="cls-1" x="6.45" y="19.5" width="2.55" height="9.01" transform="translate(31.73 16.28) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+____wordfence\
+acf-quickedit-fields\
+advanced-custom-fields-pro\
+agebreak-custom-blocks\
+custom-post-type-ui\
+intuitive-custom-post-order\
+litespeed-cache\
+search-filter\
+search-filter-pro\
+simple_js_injector\
+svg-support\
+wordpress-importer\

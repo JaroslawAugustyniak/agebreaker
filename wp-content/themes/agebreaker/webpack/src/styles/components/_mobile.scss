@@ -1,0 +1,358 @@
+@media(max-width:767px){
+html {
+
+        body {
+            padding-top:11rem;
+
+            .page-footer{
+                // background: $color_darkblue;
+                #cc{
+                  display: flex;
+                  flex-direction: column;
+                  margin-top:1rem;
+                  
+                  h4{
+                    margin-left:0;
+                  }
+                }
+              }
+
+            .break{
+              position: relative;
+              height: .5rem;
+              div{
+                background-size: cover;
+              }
+            }
+            #base_holder{
+              position: relative;
+              
+
+              .base_holder_bg{
+                position: absolute;
+                width:100%;
+                height:  100%;
+              }
+
+              &.active{
+                .filter_bg{ 
+                  transform: translateX(0);                  
+                }
+                .filter-toggle{
+                  left: 75%;
+                }
+              }
+
+              .filter-toggle{
+                display: block;
+                position: absolute;
+                top:1rem;
+                left: 0;
+                transition: .3s linear all;
+                background: $color_blue;
+                padding: .5rem 1.5rem .5rem 1rem;
+                border-top-right-radius: 1.5625rem;
+                border-bottom-right-radius: 1.5625rem;
+                color: $color_white;
+                cursor: pointer;
+              }
+
+              .filter_bg{ 
+                position: absolute;
+                left:0;
+                z-index: 2;
+                transform: translateX(-97%);
+                top:0;
+                flex:0 0 75%;
+                transition: .3s linear all;
+                max-width: 75%;
+                .filter{
+                  margin-left:1.5rem;
+                  margin-right:1.5rem;
+
+                  .search-filter-input-checkbox .search-filter-input-checkbox__label, .search-filter-input-checkbox__count {
+                    font-size: 1.5rem;
+                  }
+                }
+              }
+              .posts_holder{ 
+                flex:0 0 100%;
+                #posts{
+                  min-height:90vh;
+                  margin-left: 1.5rem;
+                  margin-right: 1.5rem;
+                  .custom-search-results{
+                    .result-count{
+                      text-align: right;
+                      margin-right:.5rem;
+                    }
+                    .results-grid {
+                    
+                      .result-item {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        overflow: hidden;
+                        
+                        min-height: 15.625rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            
+            #site-navigation {
+                position: relative;
+                justify-content: flex-end;
+                .menu-main-menu-container {
+                  display: none;
+                  opacity: 0;
+                  visibility: hidden;
+                  transform: translateY(-10px);
+                  transition: all 0.3s ease-in-out;
+                  
+                  background:$color_white;
+                  
+                  box-shadow: 0px 24px 34px 0px rgba(0, 0, 0, .5);
+                  left:0;
+                  .menu{
+                    margin-top:1.5rem;
+                    margin-bottom:1.5rem;
+                    flex-direction: column;
+                    margin-left:0;
+                    padding-left:0;
+                    gap:0;
+                    display: block;
+
+                    .menu-item a{
+                      font-size: $font_size_28;
+                    }
+                  }
+                }
+              
+                .menu-toggle.active + .menu-main-menu-container {
+                  display: block;
+                  position: fixed;
+                  left: 0;
+                  width: 100%;
+                  top:10.5rem;
+                  opacity: 1;
+                  visibility: visible;
+                  transform: translateY(0);
+                }
+              
+                // Styl opcjonalny dla przycisku menu-toggle
+                
+                .menu-toggle {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    padding: 0.625rem;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  
+                    div {
+                      position: relative;
+                      width: 4rem;
+                      height: 0.25rem;
+                      background-color: $color_darkblue;
+                      transition: all 0.3s ease;
+                  
+                      &::before,
+                      &::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 0.25rem;
+                        
+                        background-color: $color_darkblue;
+                        transition: all 0.3s ease;
+                        left: 0;
+                      }
+                  
+                      &::before {
+                        top: -0.75rem;
+                      }
+                  
+                      &::after {
+                        top: 0.75rem;
+                      }
+                    }
+                  
+                    &.active div {
+                      background-color: transparent;
+                  
+                      &::before {
+                        transform: rotate(45deg);
+                        top: 0;
+                      }
+                  
+                      &::after {
+                        transform: rotate(-45deg);
+                        top: 0;
+                      }
+                    }
+                  }
+                  
+                  
+              }
+        
+            .container{
+              padding-left:1.5rem;
+              padding-right:1.5rem;
+            }
+
+
+            &.scrolled{
+                .site-header{
+                    transform: translateY(0);
+                }
+            }
+            .site-header{
+                padding-top: 0;
+                .break-pion, .hub{
+                    display: none;
+                }
+                .logotypy{
+                  display: flex;
+                  justify-content: space-between;
+                  gap:.5rem;
+                  padding-bottom:0;
+                  margin-bottom:.5rem;
+                  img{
+                    width: auto;
+                    max-width: inherit;
+                    &.fundusze{height: 2.625rem;}
+                    &.rp{height: 2rem;}
+                    &.ue{height: 2rem;}
+                    &.hub{height: 2rem; padding-bottom:0;}
+                  }
+                }
+            }
+
+            
+
+            section{
+                &#header{
+                    #headerImageHolder {
+                        &.has-image{
+                        height: 28.125rem;
+                          img{
+                            width:auto !important;
+                            max-width: inherit;
+                            height: 100%;
+                          }
+                        }
+
+                        .content{
+                            h1{
+                                font-size: $font_size_46;
+                            }
+                    
+                            h2{
+                                font-size: $font_size_28;
+                                line-height: 1.2;
+                            }
+                        }
+                    }
+                }
+
+                &#baza-aktywnosci{
+                  .header h2 {
+                    font-size: 2.375rem;
+                    line-height: 1.2;
+                  }
+
+                  .formularz{
+                    
+                    .search-filter-base{
+                      flex-direction: column;
+                      margin-bottom: 1rem;
+                      .search-filter-label{
+                        font-size: 1.75rem;
+                        
+                      }
+
+                      .search-filter-input-group{
+                        flex-direction: column;
+                        margin-left:1rem;
+                        .search-filter-input-radio__label, .search-filter-input-radio__count, .search-filter-input-checkbox__label, .search-filter-input-checkbox__count{
+                          font-size: 1.75rem;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                &.half_page_text{
+                  .columns{
+                    display: flex;
+                    flex-wrap: wrap;
+            
+                    .column{
+                      flex: 0 0 100%;
+                      max-width: 100%;
+                    }
+                  }
+                }
+
+                &.links{
+                  .col{
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                  }
+                }
+
+                &#text-boxes, &.image_text{
+                    .right, .left{
+                        flex-direction: column;
+
+                        .content, .image{
+                            flex: 0 0 100%;
+                            max-width: 100%;
+
+                            
+                        }
+
+                        .content{
+                            .in{
+                                margin-top:1rem;
+                                margin-bottom:1rem;
+                                margin-left: 1.5rem;
+                                margin-right: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:1280px){
+  html{
+    body{
+      &.single-activities{
+        .header_2{
+          margin-left:0;
+        }
+        .header_1{
+          margin-left:0;
+          padding-top:1rem;
+          .break{
+            left:-1.5rem;
+          }
+          &:Before{
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            top:.5rem;
+            width:100%
+          }
+        }
+      } 
+    }
+  }
+}
