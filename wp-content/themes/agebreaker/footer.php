@@ -52,9 +52,12 @@
 							
 							<img src="//creativecommons.org/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by" />
 							
-							<img src="//creativecommons.org/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa" />
+							
 						</span>
-						<h4>Age Breaker © 2025 autorstwa WellHR podlega licencji Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></h4>
+						<h5><strong>Age Breaker 2025</strong> autorstwa <strong>WellHR</strong> podlega licencji <strong>Creative Commons</strong> <a href="https://creativecommons.org/licenses/by/4.0/deed.pl" target="_blank">CC BY 4.0</a>
+						<br>
+						Produkt powstał w ramach projektu <strong>TransferHUB</strong> - inkubator innowacji społecznych w obszarze zatrudnienia, <a href="http://www.transferhub.pl/" target="_blank">www.transferhub.pl</a>
+						</h5>
 					</div>
 				</div>
 			</div>

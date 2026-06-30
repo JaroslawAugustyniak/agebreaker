@@ -30,7 +30,7 @@ body{
         }
       }
 
-      h4{
+      h5{
          margin-left:1rem;
          font-weight: 400;
          strong{
@@ -548,11 +548,13 @@ body{
       padding-bottom:1.5rem;
       height: 100%;
       align-items: center;
+      justify-content: space-between;
       img{
         height: 2.75rem;
+        display: block;
       }
       p{
-        
+        display: none;
         @include p();
         font-size: 0.875rem;
         margin-bottom: 0;

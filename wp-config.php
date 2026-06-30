@@ -1,4 +1,6 @@
 <?php
+define( 'WP_CACHE', true );
+
 /**
  * The base configuration for WordPress
  *
@@ -29,7 +31,7 @@ define( 'DB_USER', 'wp' );
 define( 'DB_PASSWORD', 'wp' );
 
 /** Database hostname */
-define( 'DB_HOST', 'mysql' );
+define('DB_HOST', 'mysql:3309');
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

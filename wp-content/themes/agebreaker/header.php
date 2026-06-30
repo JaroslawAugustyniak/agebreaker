@@ -40,8 +40,9 @@
 				<div class="col-1 d-none d-md-block"><div class="break-pion"></div></div>
 				<div class="col-md-4 d-none d-md-block">
 					<div class="hub">
-						<img src="<?= esc_url(get_template_directory_uri() . '/images/transfer-hub-logo.svg'); ?>" alt="Fundusze Europejskie">
-						<p>Innowacja została opracowana w&nbsp;Inkubatorze TransferHUB, <a href="https://www.transferhub.pl" target="_blank">www.transferhub.pl</a></p>
+						<img src="<?= esc_url(get_template_directory_uri() . '/images/transfer-hub-logo.svg'); ?>" alt="Innowacja została opracowana w Inkubatorze TransferHUB">
+						<!--<p>Innowacja została opracowana w&nbsp;Inkubatorze TransferHUB, <a href="https://www.transferhub.pl" target="_blank">www.transferhub.pl</a></p>-->
+						<a href="https://well.hr" target="_blank"><img src="<?= esc_url(get_template_directory_uri() . '/images/logo-well.png.webp'); ?>" alt="Innowacja została opracowana przez Well.hr"></a>
 					</div>
 				</div>
 			</div>

@@ -270,7 +270,7 @@ function agebreaker_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	
-	if($_SERVER['HTTP_HOST'] != 'agebreaker.localhost'){
+	if($_SERVER['HTTP_HOST'] == 'agebreaker.localhost'){
 		wp_enqueue_script('agebreaker-main-js', 'http://agebreaker.localhost:8080/js/main.min.js', array(), _S_VERSION, true);
 	}else{
 		wp_enqueue_style('agebreaker-main-style', get_template_directory_uri() . '/assets/styles/main.min.css', array(), _S_VERSION);
